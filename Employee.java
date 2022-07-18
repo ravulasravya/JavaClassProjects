@@ -15,7 +15,6 @@ public class Employee  {
     private String socialSecurityNumber = "";
     private LocalDate dateOfBirth; //"yyyy-mm-dd"
     private BigDecimal salary = new BigDecimal(0);
-    private int age = 0;
 
     // Constructors are the special methods called when the "new" keyword is used on a class, and
     // an object is instantiated
@@ -124,11 +123,6 @@ public class Employee  {
             this.salary = salary;
         }
     }
-
-//    public int calculateAge(){
-//        age = LocalDate.now() - (getDateOfBirth());
-//        return age;
-//    }
 
 
 }
